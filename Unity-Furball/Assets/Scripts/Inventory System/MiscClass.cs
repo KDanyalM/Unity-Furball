@@ -3,7 +3,19 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "new Misc Class", menuName = "Item/Misc")] // Allows us to right click in the editor and create class as an asset file
 public class MiscClass : ItemClass
 {
+    [Header("Misc")]
 
+    public MiscType miscType;
+
+    public enum MiscType
+    {
+        flour,
+        water,
+        sugar,
+        onion,
+        greenonion
+        
+    }
 
     //Data specific to Misc class
     public override ItemClass GetItem() { return this; }
