@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MiscClass
   itemName: Onion
   itemIcon: {fileID: 21300000, guid: c62c98a89ae12064c884ad9d9a0f459a, type: 3}
-  miscType: 0
+  miscType: 3
