@@ -12,9 +12,6 @@ public class ConsumableClass : ItemClass
     {
         apple,
         orange,
-        flour,
-        water,
-        sugar,
         applepie
         
             
