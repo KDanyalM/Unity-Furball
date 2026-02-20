@@ -2319,9 +2319,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InventoryManager
   slotHolder: {fileID: 958817109}
-  itemToAdd: {fileID: 11400000, guid: 701ee38895374054daae1fd165963dcf, type: 2}
-  itemToRemove: {fileID: 0}
-  items: []
+  itemToAdd: {fileID: 11400000, guid: 565c7271494591f4d80c00d74dcef53a, type: 2}
+  itemToRemove: {fileID: 11400000, guid: 8914374506e9c4c43b16f62028a2d015, type: 2}
+  items:
+  - item: {fileID: 11400000, guid: 701ee38895374054daae1fd165963dcf, type: 2}
+    quantity: 2
+  - item: {fileID: 11400000, guid: 8914374506e9c4c43b16f62028a2d015, type: 2}
+    quantity: 5
+  - item: {fileID: 11400000, guid: 565c7271494591f4d80c00d74dcef53a, type: 2}
+    quantity: 1
 --- !u!4 &1189993090
 Transform:
   m_ObjectHideFlags: 0

@@ -8,6 +8,7 @@ public abstract class ItemClass : ScriptableObject
     [Header("Item")] //Data shared across all items
     public string itemName;
     public Sprite itemIcon;
+    public bool isStackable = true;
 
 
     public abstract ItemClass GetItem();
